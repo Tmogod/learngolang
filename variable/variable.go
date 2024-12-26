@@ -26,6 +26,9 @@ func main() {
 	var h int = 4
 	var m = 4
 
+	// 同时声明多个变量
+	l, n := 20, true
+
 	// 未显式声明的变量，其值是"0"
 	fmt.Printf("age类型为: %T, age = %d\n", age, age)
 	fmt.Printf("sex类型为: %T, sex = %t\n", sex, sex)
@@ -35,4 +38,7 @@ func main() {
 	fmt.Printf("g类型为: %T, g = %d\n", g, g)
 	fmt.Println(h)
 	fmt.Println(m)
+	fmt.Println(l)
+	fmt.Println(n)
+
 }
