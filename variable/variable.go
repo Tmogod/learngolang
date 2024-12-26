@@ -19,7 +19,7 @@ func main() {
 
 	fmt.Printf("c=%d\n", c)
 
-	// := 声明+赋值
+	// := 声明+赋值  := 只在本作用域有效 不可取地址返回
 	f := 40.0                  // float64
 	g := uint32(c) - uint32(a) // int
 
