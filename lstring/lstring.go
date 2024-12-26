@@ -12,7 +12,7 @@ func main() {
 	}
 	fmt.Printf("string s's len: %d\n", len(s))
 
-	a := "golang你好"          // UTF8编码
+	a := "golang你好"            // UTF8编码
 	fmt.Printf("%d\n", len(a)) // 12
 
 	arr := []rune(a)             // rune 代表UTF8编码的每一个元素
